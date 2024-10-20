@@ -19,6 +19,7 @@ Our DSIN-PMA consistently reduces the MSE scores as the look-back window increas
 You can adjust the hyperparameters based on your needs (e.g. different patch length, different look-back windows and prediction lengths.). We also provide codes for the baseline models.
 
 ## Acknowledgement
+We appreciate the following github repo very much for the valuable code base and datasets:
 https://github.com/cure-lab/LTSF-Linear  
 https://github.com/thuml/Autoformer  
 https://github.com/alipay/Pyraformer  
