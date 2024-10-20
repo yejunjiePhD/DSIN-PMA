@@ -1,5 +1,5 @@
 # DSIN-PMA
-## Dual-Stream Interactive Networks with Pearson-Mask Awareness for Multivariate Time Series Forecasting
+### Dual-Stream Interactive Networks with Pearson-Mask Awareness for Multivariate Time Series Forecasting
 
 ## Overall Architecture
 
@@ -12,8 +12,10 @@ Our DSIN-PMA consistently reduces the MSE scores as the look-back window increas
 ## Getting Started
 1. Install requirements.  
 2. Download data. You can download all the datasets from Google Drive. Create a seperate folder ./dataset and put all the csv files in the directory.
-3. Training. All the scripts are in the directory ./scripts/multivariate_forecast. For example, if you want to get the multivariate forecasting results for ETTh1 dataset, just run the following command, and you can open ./result.txt to see the results once the training is done:
-   sh ./scripts/multivariate_forecast/ETTh1.sh
+3. Training. All the scripts are in the directory ./scripts/multivariate_forecast. For example, if you want to get the multivariate forecasting results for ETTh1 dataset, just run the following command, and you can open ./result.txt to see the results once the training is done:  
+
+    sh ./scripts/multivariate_forecast/ETTh1.sh  
+   
 You can adjust the hyperparameters based on your needs (e.g. different patch length, different look-back windows and prediction lengths.). We also provide codes for the baseline models.
 
 ## Acknowledgement
