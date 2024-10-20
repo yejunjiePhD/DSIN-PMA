@@ -6,6 +6,8 @@
 ## Main Result of Multivariate Forecasting
 
 ## Efficiency on Long Look-back Windows
+Our DSIN-PMA consistently reduces the MSE scores as the look-back window increases, which confirms our model’s capability to learn from longer receptive field.
+![Figure8](https://github.com/user-attachments/assets/9ea86b9c-4559-4e59-b9a6-d25bd8b8aba0)
 
 ## Getting Started
 1. Install requirements.  
