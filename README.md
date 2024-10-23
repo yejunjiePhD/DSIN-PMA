@@ -2,6 +2,9 @@
 ### Dual-Stream Interactive Networks with Pearson-Mask Awareness for Multivariate Time Series Forecasting
 
 ## Overall Architecture
+Overall structure of DSIN-PMA, consisting of dual-stream network. 1) Dual-stream embedding layer: Multivariate embedding and time-step embedding effectively represent the multivariate time series data from two dimensions. 2) Dual-stream encoder layer: i) Cross-multivariate attention with Pearson-mask encoder introduces a Pearson mask knowledge matrix into the traditional attention mechanism, aimed at de-noising and capturing cross-variate dependencies. ii) Time-step attention encoder focuses on learning the seasonality and trend within the time steps, using a conventional multi-head attention mechanism to capture seasonal information. 3) Cross-dimensional consistent learning: A consistency loss function is applied to encourage the dual-stream encoder to produce similar outputs, enhancing the model's generalization ability.  
+![Figure3](https://github.com/user-attachments/assets/c70febbd-b5aa-416e-a8a6-0251e9966dfc)
+
 
 ## Main Result of Multivariate Forecasting
 
