@@ -14,7 +14,7 @@ Our DSIN-PMA consistently reduces the MSE scores as the look-back window increas
 
 ## Getting Started
 1. Install requirements.  
-2. Download data. You can download all the datasets from Google Drive. Create a seperate folder ./dataset and put all the csv files in the directory.
+2. Download data. You can download all the datasets from Google Drive [Google Drive](https://drive.google.com/drive/folders/1kEhDvDpMMLinzJj3YSenwbTbF4ud8fhu?usp=sharing). Create a seperate folder ./dataset and put all the csv files in the directory.
 3. Training. All the scripts are in the directory ./scripts/multivariate_forecast. For example, if you want to get the multivariate forecasting results for ETTh1 dataset, just run the following command, and you can open ./result.txt to see the results once the training is done:  
 
     sh ./scripts/multivariate_forecast/ETTh1.sh  
