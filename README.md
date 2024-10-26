@@ -24,12 +24,12 @@ You can adjust the hyperparameters based on your needs (e.g. different patch len
 ## Acknowledgement
 We appreciate the following github repo very much for the valuable code base and datasets:  
 https://github.com/cure-lab/LTSF-Linear  
-https://github.com/thuml/Autoformer  
-https://github.com/alipay/Pyraformer  
-https://github.com/zhouhaoyi/Informer2020  
+https://github.com/thuml/TimesNet  
+https://github.com/YoZhibo/MSGNet  
+https://github.com/hqh0728/CrossGNN  
+https://github.com/Thinklab-SJTU/Crossformer  
+https://github.com/huangsiyuan924/MEAformer  
 https://github.com/ts-kim/RevIN  
-https://github.com/timeseriesAI/tsai  
-https://github.com/MAZiqing/FEDformer  
 https://github.com/yuqinie98/patchtst  
 
 ## Contact
