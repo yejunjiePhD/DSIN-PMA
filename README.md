@@ -19,7 +19,8 @@ Our DSIN-PMA consistently reduces the MSE scores as the look-back window increas
 
     sh ./scripts/multivariate_forecast/ETTh1.sh  
    
-You can adjust the hyperparameters based on your needs (e.g. different patch length, different look-back windows and prediction lengths.). We also provide codes for the baseline models.
+You can adjust the hyperparameters based on your needs (e.g. different patch length, different look-back windows and prediction lengths.).   
+We also provide some of our trained models on [Google Drive](https://drive.google.com/drive/folders/1PEP71MW6SUNm5XSaxV2xS6AWTRhJbcdX?usp=sharing).
 
 ## Acknowledgement
 We appreciate the following github repo very much for the valuable code base and datasets:  
