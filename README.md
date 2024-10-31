@@ -7,6 +7,8 @@ Overall structure of DSIN-PMA, consisting of dual-stream network. 1) Dual-stream
 
 
 ## Main Result of Multivariate Forecasting
+Table 1 MTSF results on eleven datasets from different fields. We compare the latest competitive models under different forecast lengths (96, 192, 336, 720). Results for the MSGNet and MEAformer models are derived from their respective original papers. Other model results are from CrossGNN. We adopt their official code to obtain results for the Solar-Energy, PEMS08, and Flighth datasets. A lower MSE, MAE and RSE indicates better performance, and the best results are highlighted in bold.  
+![实验结果](https://github.com/user-attachments/assets/ab0b3f8c-c130-43bf-9877-d1e0e1478e8e)
 
 ## Efficiency on Long Look-back Windows
 Our DSIN-PMA consistently reduces the MSE scores as the look-back window increases, which confirms our model’s capability to learn from longer receptive field.
