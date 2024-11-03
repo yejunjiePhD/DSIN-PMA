@@ -28,14 +28,14 @@ We also provide some of our trained models on [Google Drive](https://drive.googl
 #### Optimization  
 The model is optimized using the Adam optimizer, with a learning rate scheduler to adjust the learning rate dynamically during training. Specifically, during training, we only need to provide an initial learning rate. At the end of each epoch, the learning rate is reduced by half, and training continues. The DSIN-PMA model employs the sum of L1 and L2 losses as the loss function for training.  
 #### Training Workflow  
-1) Input Processing:
-   Input the multivariate time series data.
-2) Dual-Stream Embedding Layer:
-   The input time series is represented in two ways:
+1) Input Processing:  
+   Input the multivariate time series data.  
+2) Dual-Stream Embedding Layer:  
+   The input time series is represented in two ways:  
    a)	Time-step Embedding: Treat each time step as a token, capturing time-dependent patterns.  
    b)	Variate Embedding: Treat each variate as a token, capturing variate-specific patterns.  
-3) Dual-Stream Encoder:
-   Cross-Multivariate Attention with Pearson-Mask Encoder
+3) Dual-Stream Encoder:  
+   Cross-Multivariate Attention with Pearson-Mask Encoder  
    a)	Calculate the Pearson correlation coefficient between variates.  
    b)	Use the Pearson correlation to generate a Pearson Mask Knowledge Matrix, which filters out irrelevant variates.  
    c)	The cross-multivariate attention mechanism then focuses on interactions between relevant variates by applying this mask.  
